@@ -183,7 +183,7 @@ Another way: **no `lookup` tool at all, only `calculate`** (the documents stay i
 
 <!-- model, temperature, k, prompts, answer format, anything else -->
 
-**My rule for a correct answer** (written before the first full run):
+**My rule for a correct answer** (written before the first full run):The name must match exactly (case-insensitive); the number must be within 1 unit of the last expected decimal of value (|number − value| ≤ 10^−decimals).
 
 | Run | Strategy | Correct /20 | Unanswered | Input tokens | Output tokens | Median seconds per question | Total seconds | Cost ($) |
 |---|---|---:|---:|---:|---:|---:|---:|---:|

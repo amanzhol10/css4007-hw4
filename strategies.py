@@ -37,7 +37,7 @@ SETTINGS = {"temperature_ok": True}   # flips to False if the model rejects temp
 
 def call_model(client, messages, temperature, tools=None):
     """One API call. Returns (response, seconds). Drops temperature if the model refuses it."""
-    kw = dict(model=config.MODEL, messages=messages)
+    kw = dict(model=config.MODEL, messages=messages, reasoning_effort=config.REASONING_EFFORT)
     if tools:
         kw["tools"] = tools
     if temperature is not None and SETTINGS["temperature_ok"]:

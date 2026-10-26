@@ -11,7 +11,7 @@ LABEL = {"S1": "S1 direct", "S2": f"S2 think and vote (k = {config.K_SAMPLES})",
 
 
 def load(run, s):
-    return {p.stem: json.loads(p.read_text()) for p in sorted((ROOT / f"run{run}" / s).glob("Q-*.json"))}
+    return {p.stem: json.loads(p.read_text(encoding="utf-8")) for p in sorted((ROOT / f"run{run}" / s).glob("Q-*.json"))}
 
 
 def main(runs):

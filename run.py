@@ -35,7 +35,8 @@ def measure_tools(client):
     d = b.usage.prompt_tokens - a.usage.prompt_tokens
     print(f"tool definitions add {d} input tokens per S3 request")
     (ROOT / "outputs").mkdir(exist_ok=True)
-    (ROOT / "outputs" / "tool_definition_tokens.json").write_text(json.dumps({"tokens": d}))
+    (ROOT / "outputs" / "tool_definition_tokens.json").write_text(
+        json.dumps({"tokens": d}), encoding="utf-8")
 
 
 def main():
@@ -69,18 +70,21 @@ def main():
             except Exception as e:   # an API failure must not kill the whole run
                 rec = {"final_text": "", "parsed": None, "unanswered": True, "in_tokens": 0,
                        "out_tokens": 0, "model_calls": 0, "error": f"{type(e).__name__}: {str(e)[:200]}"}
+                print(f"  !! API error on {name} {q['id']}: {rec['error']}")
             rec.update(id=q["id"], strategy=name, seconds=round(time.perf_counter() - t0, 3),
                        correct=bool(is_correct(rec["parsed"], q)), expected=[q["answer"], q["value"]],
                        vague=bool(kw))
-            (out / name / f"{q['id']}.json").write_text(json.dumps(rec, indent=2, ensure_ascii=False))
+            (out / name / f"{q['id']}.json").write_text(
+                json.dumps(rec, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"{name} {q['id']} {'OK ' if rec['correct'] else 'BAD'} parsed={rec['parsed']} "
                   f"in={rec['in_tokens']} out={rec['out_tokens']} {rec['seconds']}s")
     (out / "settings.json").write_text(json.dumps({
-        "model": config.MODEL, "k": config.K_SAMPLES, "max_rounds": config.MAX_ROUNDS,
+        "model": config.MODEL, "reasoning_effort": config.REASONING_EFFORT,
+        "k": config.K_SAMPLES, "max_rounds": config.MAX_ROUNDS,
         "temp_single": config.TEMP_SINGLE, "temp_vote": config.TEMP_VOTE,
         "temperature_accepted_by_model": S.SETTINGS["temperature_ok"],
         "price_in_per_m": config.PRICE_INPUT_PER_M, "price_out_per_m": config.PRICE_OUTPUT_PER_M,
-    }, indent=2))
+    }, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

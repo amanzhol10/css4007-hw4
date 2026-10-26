@@ -9,5 +9,6 @@ TEMP_VOTE = 1.0          # S2 samples (needs variety; dropped if the model rejec
 
 # Prices in USD per 1,000,000 tokens. FILL THESE IN from the OpenAI pricing page
 # on the day you run (they are not known to this repository).
-PRICE_INPUT_PER_M = 0.0
-PRICE_OUTPUT_PER_M = 0.0
+PRICE_INPUT_PER_M =0.20
+PRICE_OUTPUT_PER_M =1.20
+REASONING_EFFORT = "none"   # required for function tools on gpt-5.6-luna; same for S1, S2, S3
