@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Millbrook | 101.700",
+  "parsed": [
+    "Millbrook",
+    101.7
+  ],
+  "unanswered": false,
+  "in_tokens": 2223,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-11",
+  "strategy": "S1",
+  "seconds": 1.281,
+  "correct": false,
+  "expected": [
+    "Redfen",
+    56.1
+  ],
+  "vague": false
+}

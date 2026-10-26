@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Coldharbour | 4.159",
+  "parsed": [
+    "Coldharbour",
+    4.159
+  ],
+  "unanswered": false,
+  "in_tokens": 2219,
+  "out_tokens": 13,
+  "model_calls": 1,
+  "id": "Q-13",
+  "strategy": "S1",
+  "seconds": 1.63,
+  "correct": true,
+  "expected": [
+    "Coldharbour",
+    4.16
+  ],
+  "vague": false
+}

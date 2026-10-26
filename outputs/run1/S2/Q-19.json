@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Lindenmoor’s area is 1015.7 square kilometres. [NR-08]\n- Lindenmoor’s paved road network is 402.3 km. [NR-08]\n- Redfen’s area is 677.1 square kilometres. [NR-09]\n- Redfen’s paved road network is 244.6 km. [NR-09]\n\nCalculations:\n- Lindenmoor road density = 402.3 ÷ 1015.7 = 0.396180...\n- Redfen road density = 244.6 ÷ 677.1 = 0.361245...\n- Difference = 0.396180... − 0.361245... = 0.034935...\n- Rounded to three decimal places, the difference is 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+  "parsed": [
+    "Lindenmoor",
+    0.035
+  ],
+  "unanswered": false,
+  "in_tokens": 11125,
+  "out_tokens": 911,
+  "model_calls": 5,
+  "votes": {
+    "lindenmoor|0.035": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Lindenmoor",
+        0.035
+      ],
+      "text": "Facts:\n- Lindenmoor’s area is 1015.7 square kilometres. [NR-08]\n- Lindenmoor’s paved road network is 402.3 km. [NR-08]\n- Redfen’s area is 677.1 square kilometres. [NR-09]\n- Redfen’s paved road network is 244.6 km. [NR-09]\n\nCalculations:\n- Lindenmoor road density = 402.3 ÷ 1015.7 = 0.396181...\n- Redfen road density = 244.6 ÷ 677.1 = 0.361245...\n- Difference = 0.396181... − 0.361245... = 0.034936... km per square kilometre\n- Rounded to three decimal places: 0.035 km per square kilometre\n\nANSWER: Lindenmoor | 0.035"
+    },
+    {
+      "parsed": [
+        "Lindenmoor",
+        0.035
+      ],
+      "text": "Facts:\n- Lindenmoor’s area is 1015.7 square kilometres, and its paved road network is 402.3 km. [NR-08]\n- Redfen’s area is 677.1 square kilometres, and its paved road network is 244.6 km. [NR-09]\n\nCalculations:\n- Lindenmoor road density = 402.3 ÷ 1015.7 = 0.39618 km per square kilometre.\n- Redfen road density = 244.6 ÷ 677.1 = 0.36124 km per square kilometre.\n- Difference = 0.39618 − 0.36124 = 0.03494 km per square kilometre.\n- Rounded to three decimal places, the difference is 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035"
+    },
+    {
+      "parsed": [
+        "Lindenmoor",
+        0.035
+      ],
+      "text": "Facts used:\n- Lindenmoor has an area of 1015.7 square kilometres and 402.3 km of paved road. [NR-08]\n- Redfen has an area of 677.1 square kilometres and 244.6 km of paved road. [NR-09]\n\nCalculations:\n- Lindenmoor road density = 402.3 ÷ 1015.7 = 0.396180... km/km².\n- Redfen road density = 244.6 ÷ 677.1 = 0.361305... km/km².\n- Difference = 0.396180... − 0.361305... = 0.034875... km/km².\n- Rounded to three decimal places, the difference is 0.035 km/km².\n\nANSWER: Lindenmoor | 0.035"
+    },
+    {
+      "parsed": [
+        "Lindenmoor",
+        0.035
+      ],
+      "text": "Facts:\n- Lindenmoor’s area is 1015.7 square kilometres (NR-08).\n- Lindenmoor’s paved road network is 402.3 km (NR-08).\n- Redfen’s area is 677.1 square kilometres (NR-09).\n- Redfen’s paved road network is 244.6 km (NR-09).\n\nCalculations:\n- Lindenmoor road density = 402.3 ÷ 1015.7 = 0.3960638 km/km².\n- Redfen road density = 244.6 ÷ 677.1 = 0.3612450 km/km².\n- Difference = 0.3960638 − 0.3612450 = 0.0348188 km/km².\n- Rounded to three decimal places, the difference is 0.035 km/km².\n\nANSWER: Lindenmoor | 0.035"
+    },
+    {
+      "parsed": [
+        "Lindenmoor",
+        0.035
+      ],
+      "text": "Facts:\n- Lindenmoor’s area is 1015.7 square kilometres. [NR-08]\n- Lindenmoor’s paved road network is 402.3 km. [NR-08]\n- Redfen’s area is 677.1 square kilometres. [NR-09]\n- Redfen’s paved road network is 244.6 km. [NR-09]\n\nCalculations:\n- Lindenmoor road density = 402.3 ÷ 1015.7 = 0.396180...\n- Redfen road density = 244.6 ÷ 677.1 = 0.361245...\n- Difference = 0.396180... − 0.361245... = 0.034935...\n- Rounded to three decimal places, the difference is 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035"
+    }
+  ],
+  "id": "Q-19",
+  "strategy": "S2",
+  "seconds": 16.493,
+  "correct": true,
+  "expected": [
+    "Lindenmoor",
+    0.035
+  ],
+  "vague": false
+}

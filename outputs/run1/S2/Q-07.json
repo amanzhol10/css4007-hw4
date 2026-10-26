@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents, and its paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents, and its paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.446744...\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.954172...\\) km per 1,000 residents.\n- Difference: \\(52.446744... - 33.954172... = 18.492572...\\) km per 1,000 residents.\n- Rounded only at the end: 18.493 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.493",
+  "parsed": [
+    "Coldharbour",
+    18.493
+  ],
+  "unanswered": false,
+  "in_tokens": 11175,
+  "out_tokens": 1027,
+  "model_calls": 5,
+  "votes": {
+    "coldharbour|18.5": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Coldharbour",
+        18.493
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents. [NR-12]\n- Coldharbour’s paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents. [NR-06]\n- Stonecairn’s paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.445\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.952\\) km per 1,000 residents.\n- Difference: \\(52.445 - 33.952 = 18.493\\) km per 1,000 residents.\n\nANSWER: Coldharbour | 18.493"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.491
+      ],
+      "text": "Facts:\n- Coldharbour’s 2025 population was 11,407 residents (NR-12).\n- Coldharbour had 598.3 km of paved road (NR-12).\n- Stonecairn’s 2025 population was 14,926 residents (NR-06).\n- Stonecairn had 506.8 km of paved road (NR-06).\n\nCalculations:\n- Coldharbour road per 1,000 residents = 598.3 ÷ 11,407 × 1,000 = 52.446 km per 1,000 residents.\n- Stonecairn road per 1,000 residents = 506.8 ÷ 14,926 × 1,000 = 33.955 km per 1,000 residents.\n- Difference = 52.446 − 33.955 = 18.491 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.491"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.476
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents. [NR-12]\n- Coldharbour’s paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents. [NR-06]\n- Stonecairn’s paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.439\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.963\\) km per 1,000 residents.\n- Difference: \\(52.439 - 33.963 = 18.476\\) km per 1,000 residents.\n\nANSWER: Coldharbour | 18.476"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.497
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents, and its paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents, and its paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.451565... km per 1,000 residents.\n- Stonecairn: 506.8 ÷ 14,926 × 1,000 = 33.954172... km per 1,000 residents.\n- Difference: 52.451565... − 33.954172... = 18.497393... km per 1,000 residents.\n- Rounded to three decimal places: 18.497 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.497"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.493
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents, and its paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents, and its paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.446744...\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.954172...\\) km per 1,000 residents.\n- Difference: \\(52.446744... - 33.954172... = 18.492572...\\) km per 1,000 residents.\n- Rounded only at the end: 18.493 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.493"
+    }
+  ],
+  "id": "Q-07",
+  "strategy": "S2",
+  "seconds": 14.784,
+  "correct": true,
+  "expected": [
+    "Coldharbour",
+    18.5
+  ],
+  "vague": false
+}

@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Redfen | 0.006",
+  "parsed": [
+    "Redfen",
+    0.006
+  ],
+  "unanswered": false,
+  "in_tokens": 2208,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-19",
+  "strategy": "S1",
+  "seconds": 2.689,
+  "correct": false,
+  "expected": [
+    "Lindenmoor",
+    0.035
+  ],
+  "vague": false
+}

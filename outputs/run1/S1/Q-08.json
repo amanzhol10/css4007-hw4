@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Brightwater | 72.374",
+  "parsed": [
+    "Brightwater",
+    72.374
+  ],
+  "unanswered": false,
+  "in_tokens": 2216,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-08",
+  "strategy": "S1",
+  "seconds": 1.588,
+  "correct": false,
+  "expected": [
+    "Brightwater",
+    72.46
+  ],
+  "vague": false
+}

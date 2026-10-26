@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Stonecairn | 45.104",
+  "parsed": [
+    "Stonecairn",
+    45.104
+  ],
+  "unanswered": false,
+  "in_tokens": 2210,
+  "out_tokens": 14,
+  "model_calls": 1,
+  "id": "Q-05",
+  "strategy": "S1",
+  "seconds": 1.263,
+  "correct": false,
+  "expected": [
+    "Coldharbour",
+    14235
+  ],
+  "vague": false
+}

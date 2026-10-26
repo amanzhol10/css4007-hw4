@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Coldharbour’s 2025 population was 11,407 residents, and its paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents, and its paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.458\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.958\\) km per 1,000 residents.\n- Difference: \\(52.458 - 33.958 = 18.500\\) km per 1,000 residents.\n\nANSWER: Coldharbour | 18.5",
+  "parsed": [
+    "Coldharbour",
+    18.495
+  ],
+  "unanswered": false,
+  "in_tokens": 11175,
+  "out_tokens": 983,
+  "model_calls": 5,
+  "votes": {
+    "coldharbour|18.5": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Coldharbour",
+        18.495
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents. [NR-12]\n- Coldharbour’s paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents. [NR-06]\n- Stonecairn’s paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour road per 1,000 residents = 598.3 ÷ 11,407 × 1,000 = 52.449 km per 1,000 residents.\n- Stonecairn road per 1,000 residents = 506.8 ÷ 14,926 × 1,000 = 33.954 km per 1,000 residents.\n- Difference = 52.449 − 33.954 = 18.495 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.495"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.453
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents (NR-12).\n- Coldharbour’s paved road network was 598.3 km (NR-12).\n- Stonecairn’s 2025 population was 14,926 residents (NR-06).\n- Stonecairn’s paved road network was 506.8 km (NR-06).\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.407\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.954\\) km per 1,000 residents.\n- Difference: \\(52.407 - 33.954 = 18.453\\) km per 1,000 residents.\n\nANSWER: Coldharbour | 18.453"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.492
+      ],
+      "text": "Facts:\n- Coldharbour’s 2025 population was 11,407 residents (NR-12).\n- Coldharbour’s paved road network was 598.3 km (NR-12).\n- Stonecairn’s 2025 population was 14,926 residents (NR-06).\n- Stonecairn’s paved road network was 506.8 km (NR-06).\n\nCalculations:\n- Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.447 km per 1,000 residents.\n- Stonecairn: 506.8 ÷ 14,926 × 1,000 = 33.955 km per 1,000 residents.\n- Difference: 52.447 − 33.955 = 18.492 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.492"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.498
+      ],
+      "text": "Facts used:\n- Coldharbour’s 2025 population was 11,407 residents, and its paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents, and its paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: 598.3 ÷ 11,407 × 1,000 = 52.4538 km per 1,000 residents.\n- Stonecairn: 506.8 ÷ 14,926 × 1,000 = 33.9555 km per 1,000 residents.\n- Difference: 52.4538 − 33.9555 = 18.4983 km per 1,000 residents.\n- Rounded final difference: 18.498 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.498"
+    },
+    {
+      "parsed": [
+        "Coldharbour",
+        18.5
+      ],
+      "text": "Facts:\n- Coldharbour’s 2025 population was 11,407 residents, and its paved road network was 598.3 km. [NR-12]\n- Stonecairn’s 2025 population was 14,926 residents, and its paved road network was 506.8 km. [NR-06]\n\nCalculations:\n- Coldharbour: \\(598.3 \\div 11,407 \\times 1,000 = 52.458\\) km per 1,000 residents.\n- Stonecairn: \\(506.8 \\div 14,926 \\times 1,000 = 33.958\\) km per 1,000 residents.\n- Difference: \\(52.458 - 33.958 = 18.500\\) km per 1,000 residents.\n\nANSWER: Coldharbour | 18.5"
+    }
+  ],
+  "id": "Q-07",
+  "strategy": "S2",
+  "seconds": 15.109,
+  "correct": true,
+  "expected": [
+    "Coldharbour",
+    18.5
+  ],
+  "vague": false
+}

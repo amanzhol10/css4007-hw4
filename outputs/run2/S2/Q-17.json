@@ -1,0 +1,64 @@
+{
+  "final_text": "Facts used:\n- Harrowfield’s 2025 household water use was 7,146 megalitres, and its 2025 population was 90,212 residents. [NR-07]\n- Ossbridge’s 2025 household water use was 3,862 megalitres, and its 2025 population was 52,904 residents. [NR-01]\n- The 2025 household water tariff was 142.35 tenge per cubic metre. [NR-15]\n- One megalitre equals 1,000 cubic metres. [NR-15]\n\nCalculations:\n- Harrowfield water per resident = 7,146 × 1,000 ÷ 90,212 = 79.201878... cubic metres.\n- Harrowfield cost per resident = 79.201878... × 142.35 = 11,272.881... tenge.\n- Ossbridge water per resident = 3,862 × 1,000 ÷ 52,904 = 72.998... cubic metres.\n- Ossbridge cost per resident = 72.998... × 142.35 = 10,391.2... tenge.\n- Difference = 11,272.881... − 10,391.2... = 881.681... tenge per resident.\n- Therefore, Harrowfield households paid more.\n\nANSWER: Harrowfield | 881.681",
+  "parsed": [
+    "Harrowfield",
+    884.326
+  ],
+  "unanswered": false,
+  "in_tokens": 11185,
+  "out_tokens": 1469,
+  "model_calls": 5,
+  "votes": {
+    "harrowfield|884.0": 1,
+    "harrowfield|883.0": 1,
+    "harrowfield|888.0": 1,
+    "harrowfield|893.0": 1,
+    "harrowfield|882.0": 1
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Harrowfield",
+        884.326
+      ],
+      "text": "Facts used:\n- Harrowfield’s 2025 household water use was 7,146 megalitres, and its 2025 population was 90,212 residents. [NR-07]\n- Ossbridge’s 2025 household water use was 3,862 megalitres, and its 2025 population was 52,904 residents. [NR-01]\n- The 2025 household water tariff was 142.35 tenge per cubic metre. [NR-15]\n- One megalitre equals 1,000 cubic metres. [NR-15]\n\nCalculations:\n- Harrowfield water cost: 7,146 × 1,000 × 142.35 = 1,017,221,100 tenge.\n- Harrowfield cost per resident: 1,017,221,100 ÷ 90,212 = 11,275.740034... tenge.\n- Ossbridge water cost: 3,862 × 1,000 × 142.35 = 549,755,700 tenge.\n- Ossbridge cost per resident: 549,755,700 ÷ 52,904 = 10,391.413873... tenge.\n- Difference: 11,275.740034... − 10,391.413873... = 884.326161... tenge per resident.\n- Rounded final difference: 884.326 tenge per resident.\n\nANSWER: Harrowfield | 884.326"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        883.0
+      ],
+      "text": "Facts used:\n- Harrowfield’s 2025 household water use was 7,146 megalitres, and its 2025 population was 90,212 residents. [NR-07]\n- Ossbridge’s 2025 household water use was 3,862 megalitres, and its 2025 population was 52,904 residents. [NR-01]\n- The 2025 household water tariff was 142.35 tenge per cubic metre. [NR-15]\n- One megalitre equals 1,000 cubic metres. [NR-15]\n\nCalculations:\n- Harrowfield water per resident = 7,146 × 1,000 ÷ 90,212 = 79.212071...\n- Harrowfield cost per resident = 79.212071... × 142.35 = 11273.328...\n- Ossbridge water per resident = 3,862 × 1,000 ÷ 52,904 = 72.997882...\n- Ossbridge cost per resident = 72.997882... × 142.35 = 10390.349...\n- Difference = 11273.328... − 10390.349... = 882.979... tenge per resident\n- Rounded only at the end: 883 tenge per resident\n\nANSWER: Harrowfield | 883"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        888.0
+      ],
+      "text": "Facts used:\n- Harrowfield’s 2025 household water use was 7,146 megalitres; its 2025 population was 90,212 residents. [NR-07]\n- Ossbridge’s 2025 household water use was 3,862 megalitres; its 2025 population was 52,904 residents. [NR-01]\n- The 2025 household water tariff was 142.35 tenge per cubic metre. [NR-15]\n- One megalitre equals 1,000 cubic metres. [NR-15]\n\nCalculations:\n- Harrowfield water use per resident = 7,146,000 ÷ 90,212 = 79.212504... cubic metres.\n- Harrowfield cost per resident = 79.212504... × 142.35 = 11,275.390... tenge.\n- Ossbridge water use per resident = 3,862,000 ÷ 52,904 = 72.976? cubic metres.\n- Ossbridge cost per resident = (3,862,000 ÷ 52,904) × 142.35 = 10,386.?? tenge.\n- Difference = Harrowfield cost per resident − Ossbridge cost per resident = 888.?? tenge.\n\nANSWER: Harrowfield | 888.???"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        893.098
+      ],
+      "text": "Facts:\n- Harrowfield household water use was 7,146 megalitres in 2025 (NR-07).\n- Harrowfield’s 2025 population was 90,212 residents (NR-07).\n- Ossbridge household water use was 3,862 megalitres in 2025 (NR-01).\n- Ossbridge’s 2025 population was 52,904 residents (NR-01).\n- The 2025 household water tariff was 142.35 tenge per cubic metre (NR-15).\n- One megalitre equals 1,000 cubic metres (NR-15).\n\nCalculations:\n- Harrowfield water per resident = 7,146,000 ÷ 90,212 = 79.224991... cubic metres per resident.\n- Ossbridge water per resident = 3,862,000 ÷ 52,904 = 72.954409... cubic metres per resident.\n- Harrowfield cost per resident = 79.224991... × 142.35 = 11277.155...\n- Ossbridge cost per resident = 72.954409... × 142.35 = 10384.057...\n- Difference = 11277.155... − 10384.057... = 893.098... tenge per resident.\n\nANSWER: Harrowfield | 893.098"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        881.681
+      ],
+      "text": "Facts used:\n- Harrowfield’s 2025 household water use was 7,146 megalitres, and its 2025 population was 90,212 residents. [NR-07]\n- Ossbridge’s 2025 household water use was 3,862 megalitres, and its 2025 population was 52,904 residents. [NR-01]\n- The 2025 household water tariff was 142.35 tenge per cubic metre. [NR-15]\n- One megalitre equals 1,000 cubic metres. [NR-15]\n\nCalculations:\n- Harrowfield water per resident = 7,146 × 1,000 ÷ 90,212 = 79.201878... cubic metres.\n- Harrowfield cost per resident = 79.201878... × 142.35 = 11,272.881... tenge.\n- Ossbridge water per resident = 3,862 × 1,000 ÷ 52,904 = 72.998... cubic metres.\n- Ossbridge cost per resident = 72.998... × 142.35 = 10,391.2... tenge.\n- Difference = 11,272.881... − 10,391.2... = 881.681... tenge per resident.\n- Therefore, Harrowfield households paid more.\n\nANSWER: Harrowfield | 881.681"
+    }
+  ],
+  "id": "Q-17",
+  "strategy": "S2",
+  "seconds": 24.059,
+  "correct": true,
+  "expected": [
+    "Harrowfield",
+    884
+  ],
+  "vague": false
+}

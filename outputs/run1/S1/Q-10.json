@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Stonecairn | 8",
+  "parsed": [
+    "Stonecairn",
+    8.0
+  ],
+  "unanswered": false,
+  "in_tokens": 2205,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-10",
+  "strategy": "S1",
+  "seconds": 1.016,
+  "correct": true,
+  "expected": [
+    "Stonecairn",
+    8
+  ],
+  "vague": false
+}

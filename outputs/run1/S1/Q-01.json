@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Ossbridge | 4.5",
+  "parsed": [
+    "Ossbridge",
+    4.5
+  ],
+  "unanswered": false,
+  "in_tokens": 2208,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-01",
+  "strategy": "S1",
+  "seconds": 1.91,
+  "correct": true,
+  "expected": [
+    "Ossbridge",
+    4.6
+  ],
+  "vague": false
+}

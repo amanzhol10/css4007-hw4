@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Tarnvale’s 2020 population was 67,214 and its 2025 population was 71,388. [NR-03]\n- Harrowfield’s 2020 population was 83,609 and its 2025 population was 90,212. [NR-07]\n\nCalculations:\n- Tarnvale’s percentage growth = ((71,388 − 67,214) ÷ 67,214) × 100 = 6.208%.\n- Harrowfield’s percentage growth = ((90,212 − 83,609) ÷ 83,609) × 100 = 7.898%.\n- Difference = 7.898% − 6.208% = 1.690 percentage points.\n- Harrowfield grew faster.\n\nANSWER: Harrowfield | 1.69",
+  "parsed": [
+    "Harrowfield",
+    1.69
+  ],
+  "unanswered": false,
+  "in_tokens": 11155,
+  "out_tokens": 880,
+  "model_calls": 5,
+  "votes": {
+    "harrowfield|1.69": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Harrowfield",
+        1.69
+      ],
+      "text": "Facts used:\n- Tarnvale’s 2020 population was 67,214 and its 2025 population was 71,388. [NR-03]\n- Harrowfield’s 2020 population was 83,609 and its 2025 population was 90,212. [NR-07]\n\nCalculations:\n- Tarnvale’s percentage growth = ((71,388 − 67,214) ÷ 67,214) × 100 = 6.208%.\n- Harrowfield’s percentage growth = ((90,212 − 83,609) ÷ 83,609) × 100 = 7.898%.\n- Difference = 7.898% − 6.208% = 1.690 percentage points.\n\nANSWER: Harrowfield | 1.690"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        1.689
+      ],
+      "text": "Facts:\n- Tarnvale’s 2020 population was 67,214 and its 2025 population was 71,388. [NR-03]\n- Harrowfield’s 2020 population was 83,609 and its 2025 population was 90,212. [NR-07]\n\nCalculations:\n- Tarnvale’s percentage growth = \\((71,388 - 67,214) / 67,214 \\times 100\\) = \\(4,174 / 67,214 \\times 100\\) = 6.209%.\n- Harrowfield’s percentage growth = \\((90,212 - 83,609) / 83,609 \\times 100\\) = \\(6,603 / 83,609 \\times 100\\) = 7.898%.\n- Difference = \\(7.898 - 6.209\\) = 1.689 percentage points.\n\nANSWER: Harrowfield | 1.689"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        1.689
+      ],
+      "text": "Facts:\n- Tarnvale’s 2020 population was 67214 and its 2025 population was 71388. [NR-03]\n- Harrowfield’s 2020 population was 83609 and its 2025 population was 90212. [NR-07]\n\nCalculations:\n- Tarnvale’s percentage growth = ((71388 − 67214) / 67214) × 100 = 6.209%.\n- Harrowfield’s percentage growth = ((90212 − 83609) / 83609) × 100 = 7.898%.\n- Difference = 7.898% − 6.209% = 1.689 percentage points.\n- Therefore, Harrowfield grew faster.\n\nANSWER: Harrowfield | 1.689"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        1.686
+      ],
+      "text": "Facts used:\n- Tarnvale’s 2020 population was 67,214 and its 2025 population was 71,388. [NR-03]\n- Harrowfield’s 2020 population was 83,609 and its 2025 population was 90,212. [NR-07]\n\nCalculations:\n- Tarnvale’s percentage growth = ((71,388 − 67,214) / 67,214) × 100 = 6.212%.\n- Harrowfield’s percentage growth = ((90,212 − 83,609) / 83,609) × 100 = 7.898%.\n- Difference = 7.898% − 6.212% = 1.686 percentage points.\n\nANSWER: Harrowfield | 1.686"
+    },
+    {
+      "parsed": [
+        "Harrowfield",
+        1.69
+      ],
+      "text": "Facts:\n- Tarnvale’s 2020 population was 67,214 and its 2025 population was 71,388. [NR-03]\n- Harrowfield’s 2020 population was 83,609 and its 2025 population was 90,212. [NR-07]\n\nCalculations:\n- Tarnvale’s percentage growth = ((71,388 − 67,214) ÷ 67,214) × 100 = 6.208%.\n- Harrowfield’s percentage growth = ((90,212 − 83,609) ÷ 83,609) × 100 = 7.898%.\n- Difference = 7.898% − 6.208% = 1.690 percentage points.\n- Harrowfield grew faster.\n\nANSWER: Harrowfield | 1.69"
+    }
+  ],
+  "id": "Q-02",
+  "strategy": "S2",
+  "seconds": 16.064,
+  "correct": true,
+  "expected": [
+    "Harrowfield",
+    1.69
+  ],
+  "vague": false
+}

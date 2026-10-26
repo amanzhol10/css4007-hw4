@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Ossbridge area: 1,284.6 square kilometres (NR-01).\n- Ossford area: 846.2 square kilometres (NR-02).\n- Tarnvale area: 2,106.9 square kilometres (NR-03).\n\nCalculations:\n- Combined Ossbridge and Ossford area = 1,284.6 + 846.2 = 2,130.8 square kilometres.\n- Difference = 2,130.8 − 2,106.9 = 23.9 square kilometres.\n- Since 2,130.8 is greater than 2,106.9, the combined area is larger.\n\nANSWER: yes | 23.9",
+  "parsed": [
+    "yes",
+    23.9
+  ],
+  "unanswered": false,
+  "in_tokens": 11125,
+  "out_tokens": 719,
+  "model_calls": 5,
+  "votes": {
+    "yes|23.9": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "yes",
+        23.9
+      ],
+      "text": "Facts:\n- Ossbridge area: 1,284.6 square kilometres (NR-01).\n- Ossford area: 846.2 square kilometres (NR-02).\n- Tarnvale area: 2,106.9 square kilometres (NR-03).\n\nCalculations:\n- Combined Ossbridge and Ossford area = 1,284.6 + 846.2 = 2,130.8 square kilometres.\n- Difference = 2,130.8 − 2,106.9 = 23.9 square kilometres.\n- Since 2,130.8 is greater than 2,106.9, the combined area is larger.\n\nANSWER: yes | 23.9"
+    },
+    {
+      "parsed": [
+        "yes",
+        23.9
+      ],
+      "text": "Facts:\n- Ossbridge area: 1,284.6 square kilometres (NR-01).\n- Ossford area: 846.2 square kilometres (NR-02).\n- Tarnvale area: 2,106.9 square kilometres (NR-03).\n\nCalculations:\n- Combined Ossbridge and Ossford area = 1,284.6 + 846.2 = 2,130.8 square kilometres.\n- Difference = 2,130.8 − 2,106.9 = 23.9 square kilometres.\n- Since 2,130.8 is greater than 2,106.9, the combined area is larger.\n\nANSWER: yes | 23.9"
+    },
+    {
+      "parsed": [
+        "yes",
+        23.9
+      ],
+      "text": "Facts used:\n- Ossbridge area: 1284.6 square kilometres. (NR-01)\n- Ossford area: 846.2 square kilometres. (NR-02)\n- Tarnvale area: 2106.9 square kilometres. (NR-03)\n\nCalculations:\n- Combined Ossbridge and Ossford area = 1284.6 + 846.2 = 2130.8 square kilometres.\n- Difference = 2130.8 − 2106.9 = 23.9 square kilometres.\n- Since 2130.8 is greater than 2106.9, the combined area is larger.\n\nANSWER: yes | 23.9"
+    },
+    {
+      "parsed": [
+        "yes",
+        23.9
+      ],
+      "text": "Facts:\n- Ossbridge area: 1,284.6 square kilometres (NR-01).\n- Ossford area: 846.2 square kilometres (NR-02).\n- Tarnvale area: 2,106.9 square kilometres (NR-03).\n\nCalculations:\n- Combined Ossbridge and Ossford area = 1,284.6 + 846.2 = 2,130.8 square kilometres.\n- Difference = 2,130.8 − 2,106.9 = 23.9 square kilometres.\n- 2,130.8 is larger than 2,106.9.\n\nANSWER: yes | 23.9"
+    },
+    {
+      "parsed": [
+        "yes",
+        23.9
+      ],
+      "text": "Facts:\n- Ossbridge area: 1,284.6 square kilometres (NR-01).\n- Ossford area: 846.2 square kilometres (NR-02).\n- Tarnvale area: 2,106.9 square kilometres (NR-03).\n\nCalculations:\n- Combined Ossbridge and Ossford area = 1,284.6 + 846.2 = 2,130.8 square kilometres.\n- Difference = 2,130.8 − 2,106.9 = 23.9 square kilometres.\n- Since 2,130.8 is greater than 2,106.9, the combined area is larger.\n\nANSWER: yes | 23.9"
+    }
+  ],
+  "id": "Q-16",
+  "strategy": "S2",
+  "seconds": 17.405,
+  "correct": true,
+  "expected": [
+    "yes",
+    23.9
+  ],
+  "vague": false
+}

@@ -1,0 +1,113 @@
+{
+  "final_text": "Tarnvale works out higher, by 64.392 thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.392",
+  "parsed": [
+    "Tarnvale",
+    64.392
+  ],
+  "unanswered": false,
+  "in_tokens": 3567,
+  "out_tokens": 244,
+  "model_calls": 4,
+  "rounds": 4,
+  "tool_log": [
+    {
+      "round": 1,
+      "id": "call_fGLMdtuE9MIjuTjGIvIUz4We",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"budget_2025\"}",
+      "result": {
+        "district": "Harrowfield",
+        "field": "budget_2025",
+        "value": 16021.7,
+        "unit": "million tenge",
+        "source": "NR-07"
+      },
+      "seconds": 8.6e-05
+    },
+    {
+      "round": 1,
+      "id": "call_bKxWikrbbPKQbDn8AzelXMlM",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"pupils_2025_26\"}",
+      "result": {
+        "district": "Harrowfield",
+        "field": "pupils_2025_26",
+        "value": 13904,
+        "unit": "pupils",
+        "source": "NR-07"
+      },
+      "seconds": 6.8e-05
+    },
+    {
+      "round": 1,
+      "id": "call_BuYRNFnA6LfHtce6fl1mMU9b",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Tarnvale\", \"field\": \"budget_2025\"}",
+      "result": {
+        "district": "Tarnvale",
+        "field": "budget_2025",
+        "value": 12960.3,
+        "unit": "million tenge",
+        "source": "NR-03"
+      },
+      "seconds": 7e-05
+    },
+    {
+      "round": 1,
+      "id": "call_ydQscjagp8hmZxAptT0vrYCs",
+      "tool": "lookup",
+      "arguments": "{\"district\": \"Tarnvale\", \"field\": \"pupils_2025_26\"}",
+      "result": {
+        "district": "Tarnvale",
+        "field": "pupils_2025_26",
+        "value": 10652,
+        "unit": "pupils",
+        "source": "NR-03"
+      },
+      "seconds": 5.5e-05
+    },
+    {
+      "round": 2,
+      "id": "call_ERLstM9KJ0jM3OEepxMIH3jC",
+      "tool": "calculate",
+      "arguments": "{\"expression\": \"16021.7*1000/13904\"}",
+      "result": {
+        "expression": "16021.7*1000/13904",
+        "result": 1152.3086881473
+      },
+      "seconds": 0.000149
+    },
+    {
+      "round": 2,
+      "id": "call_vAxtZTGeECilAuraLomucKt1",
+      "tool": "calculate",
+      "arguments": "{\"expression\": \"12960.3*1000/10652\"}",
+      "result": {
+        "expression": "12960.3*1000/10652",
+        "result": 1216.7010889974
+      },
+      "seconds": 7.3e-05
+    },
+    {
+      "round": 3,
+      "id": "call_wdvAbUQGcm2DpySRT3RMoa41",
+      "tool": "calculate",
+      "arguments": "{\"expression\":\"12960.3*1000/10652-16021.7*1000/13904\"}",
+      "result": {
+        "expression": "12960.3*1000/10652-16021.7*1000/13904",
+        "result": 64.3924008501
+      },
+      "seconds": 0.000184
+    }
+  ],
+  "round_input_tokens": null,
+  "id": "Q-12",
+  "strategy": "S3",
+  "seconds": 8.26,
+  "correct": true,
+  "expected": [
+    "Tarnvale",
+    64.4
+  ],
+  "vague": false
+}

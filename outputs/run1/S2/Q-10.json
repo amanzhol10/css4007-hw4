@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Stonecairn was founded in 1837. (NR-06)\n- Coldharbour was founded in 1845. (NR-12)\n\nCalculation:\n- 1845 − 1837 = 8 years.\n- Since 1837 is earlier than 1845, Stonecairn is older.\n\nANSWER: Stonecairn | 8",
+  "parsed": [
+    "Stonecairn",
+    8.0
+  ],
+  "unanswered": false,
+  "in_tokens": 11110,
+  "out_tokens": 398,
+  "model_calls": 5,
+  "votes": {
+    "stonecairn|8.0": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Stonecairn",
+        8.0
+      ],
+      "text": "Facts:\n- Stonecairn was founded in 1837. [NR-06]\n- Coldharbour was founded in 1845. [NR-12]\n\nCalculation:\n- 1845 − 1837 = 8 years.\n- Since 1837 is earlier than 1845, Stonecairn is older.\n\nANSWER: Stonecairn | 8"
+    },
+    {
+      "parsed": [
+        "Stonecairn",
+        8.0
+      ],
+      "text": "Facts used:\n- Stonecairn was founded in 1837. [NR-06]\n- Coldharbour was founded in 1845. [NR-12]\n\nCalculation:\n- 1845 − 1837 = 8 years.\n- Since 1837 is earlier than 1845, Stonecairn is older.\n\nANSWER: Stonecairn | 8"
+    },
+    {
+      "parsed": [
+        "Stonecairn",
+        8.0
+      ],
+      "text": "- Stonecairn was founded in 1837. [NR-06]\n- Coldharbour was founded in 1845. [NR-12]\n- Stonecairn is older because it was founded earlier.\n- Calculation: 1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8"
+    },
+    {
+      "parsed": [
+        "Stonecairn",
+        8.0
+      ],
+      "text": "Facts:\n- Stonecairn was founded in 1837. [NR-06]\n- Coldharbour was founded in 1845. [NR-12]\n\nCalculation:\n- 1845 − 1837 = 8 years.\n- Since 1837 is earlier than 1845, Stonecairn is older.\n\nANSWER: Stonecairn | 8"
+    },
+    {
+      "parsed": [
+        "Stonecairn",
+        8.0
+      ],
+      "text": "Facts:\n- Stonecairn was founded in 1837. (NR-06)\n- Coldharbour was founded in 1845. (NR-12)\n\nCalculation:\n- 1845 − 1837 = 8 years.\n- Since 1837 is earlier than 1845, Stonecairn is older.\n\nANSWER: Stonecairn | 8"
+    }
+  ],
+  "id": "Q-10",
+  "strategy": "S2",
+  "seconds": 11.397,
+  "correct": true,
+  "expected": [
+    "Stonecairn",
+    8
+  ],
+  "vague": false
+}

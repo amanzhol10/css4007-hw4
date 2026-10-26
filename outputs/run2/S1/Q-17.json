@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Harrowfield | 1.04",
+  "parsed": [
+    "Harrowfield",
+    1.04
+  ],
+  "unanswered": false,
+  "in_tokens": 2220,
+  "out_tokens": 13,
+  "model_calls": 1,
+  "id": "Q-17",
+  "strategy": "S1",
+  "seconds": 2.099,
+  "correct": false,
+  "expected": [
+    "Harrowfield",
+    884
+  ],
+  "vague": false
+}

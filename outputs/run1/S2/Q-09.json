@@ -1,0 +1,62 @@
+{
+  "final_text": "Facts:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.483 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.483 = 0.571 residents per square kilometre.\n\nANSWER: Millbrook | 0.571",
+  "parsed": [
+    "Millbrook",
+    0.573
+  ],
+  "unanswered": false,
+  "in_tokens": 11125,
+  "out_tokens": 831,
+  "model_calls": 5,
+  "votes": {
+    "millbrook|0.572": 1,
+    "millbrook|0.573": 3,
+    "millbrook|0.571": 1
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Millbrook",
+        0.572
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.482 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.482 = 0.572 residents per square kilometre.\n\nANSWER: Millbrook | 0.572"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.573
+      ],
+      "text": "Facts used:\n- Brightwater’s corrected 2025 area is 921.4 square kilometres (NR-16).\n- Brightwater’s 2025 population is 44,675 residents (NR-05).\n- Millbrook’s 2025 population is 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.481 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.481 = 0.573 residents per square kilometre.\n\nANSWER: Millbrook | 0.573"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.573
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater population density = 44,675 ÷ 921.4 = 48.481 residents per square kilometre.\n- Millbrook population density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.481 = 0.573 residents per square kilometre.\n\nANSWER: Millbrook | 0.573"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.573
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater population density = 44,675 ÷ 921.4 = 48.481 residents per square kilometre.\n- Millbrook population density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.481 = 0.573 residents per square kilometre.\n\nANSWER: Millbrook | 0.573"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.571
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.483 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.483 = 0.571 residents per square kilometre.\n\nANSWER: Millbrook | 0.571"
+    }
+  ],
+  "id": "Q-09",
+  "strategy": "S2",
+  "seconds": 12.894,
+  "correct": true,
+  "expected": [
+    "Millbrook",
+    0.6
+  ],
+  "vague": false
+}

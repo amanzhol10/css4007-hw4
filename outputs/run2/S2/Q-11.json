@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts used:\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n- Ashgrove had 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook had 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n- Ashgrove: 8,837 ÷ 24 = 368.208333... pupils per school.\n- Millbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n- Highest minus lowest: 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1",
+  "parsed": [
+    "Redfen",
+    56.1
+  ],
+  "unanswered": false,
+  "in_tokens": 11200,
+  "out_tokens": 955,
+  "model_calls": 5,
+  "votes": {
+    "redfen|56.1": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Redfen",
+        56.1
+      ],
+      "text": "Facts used:\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n- Ashgrove had 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook had 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n- Ashgrove: 8,837 ÷ 24 = 368.208333... pupils per school.\n- Millbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n- Lowest: Redfen, at 314.7 pupils per school.\n- Highest: Millbrook, at 370.8 pupils per school.\n- Difference: 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        56.1
+      ],
+      "text": "Facts used:\n- Redfen has 10 schools and 3,147 pupils in 2025/26. [NR-09]\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n- Ashgrove: 8,837 ÷ 24 = 368.208333... pupils per school.\n- Millbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n- Highest minus lowest: 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        56.1
+      ],
+      "text": "Facts:\n- Redfen has 10 schools and 3,147 pupils in 2025/26. [NR-09]\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n- Ashgrove: 8,837 ÷ 24 = 368.208333...\n- Millbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n- Fewest: Redfen, at 314.7 pupils per school.\n- Difference between highest and lowest: 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        56.1
+      ],
+      "text": "Facts:\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n- Ashgrove had 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook had 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n- Ashgrove: 8,837 ÷ 24 = 368.208333… pupils per school.\n- Millbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n- Highest minus lowest = 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        56.1
+      ],
+      "text": "Facts used:\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n- Ashgrove had 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook had 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n- Ashgrove: 8,837 ÷ 24 = 368.208333... pupils per school.\n- Millbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n- Highest minus lowest: 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1"
+    }
+  ],
+  "id": "Q-11",
+  "strategy": "S2",
+  "seconds": 21.553,
+  "correct": true,
+  "expected": [
+    "Redfen",
+    56.1
+  ],
+  "vague": false
+}

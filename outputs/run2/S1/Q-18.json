@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: yes | 399?",
+  "parsed": [
+    "yes",
+    399.0
+  ],
+  "unanswered": false,
+  "in_tokens": 2231,
+  "out_tokens": 10,
+  "model_calls": 1,
+  "id": "Q-18",
+  "strategy": "S1",
+  "seconds": 6.709,
+  "correct": false,
+  "expected": [
+    "yes",
+    40013
+  ],
+  "vague": false
+}

@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Tarnvale | 0.004",
+  "parsed": [
+    "Tarnvale",
+    0.004
+  ],
+  "unanswered": false,
+  "in_tokens": 2214,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-14",
+  "strategy": "S1",
+  "seconds": 1.388,
+  "correct": false,
+  "expected": [
+    "Ashgrove",
+    4.9
+  ],
+  "vague": false
+}

@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Ashgrove | 6.229",
+  "parsed": [
+    "Ashgrove",
+    6.229
+  ],
+  "unanswered": false,
+  "in_tokens": 2209,
+  "out_tokens": 13,
+  "model_calls": 1,
+  "id": "Q-04",
+  "strategy": "S1",
+  "seconds": 1.665,
+  "correct": false,
+  "expected": [
+    "Millbrook",
+    2.59
+  ],
+  "vague": false
+}

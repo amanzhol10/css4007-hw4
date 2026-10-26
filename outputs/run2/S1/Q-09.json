@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Brightwater | 1.000",
+  "parsed": [
+    "Brightwater",
+    1.0
+  ],
+  "unanswered": false,
+  "in_tokens": 2208,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-09",
+  "strategy": "S1",
+  "seconds": 2.879,
+  "correct": false,
+  "expected": [
+    "Millbrook",
+    0.6
+  ],
+  "vague": false
+}

@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts used:\n- Millbrook’s 2020 population was 34,590 residents. [NR-11]\n- Millbrook’s 2025 population was 37,203 residents. [NR-11]\n- The question asks whether the same percentage growth from 2025 to 2030 would exceed 40,000 residents.\n\nCalculations:\n1. Population growth from 2020 to 2025:  \n   37,203 − 34,590 = 2,613\n2. Growth percentage:  \n   2,613 ÷ 34,590 = 0.0755429315\n3. Projected 2030 population:  \n   37,203 × (1 + 0.0755429315) = 40,013\n4. Since 40,013 is greater than 40,000, the population would exceed 40,000.\n\nANSWER: yes | 40013",
+  "parsed": [
+    "yes",
+    40014.0
+  ],
+  "unanswered": false,
+  "in_tokens": 11240,
+  "out_tokens": 895,
+  "model_calls": 5,
+  "votes": {
+    "yes|40000.0": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "yes",
+        40014.0
+      ],
+      "text": "Facts used:\n- Millbrook’s 2020 population was 34,590 residents. [NR-11]\n- Millbrook’s 2025 population was 37,203 residents. [NR-11]\n\nCalculations:\n- Population increase from 2020 to 2025: 37,203 − 34,590 = 2,613.\n- Growth percentage: 2,613 ÷ 34,590 = 0.0755429, or 7.55429%.\n- Projected 2030 population: 37,203 × (1 + 0.0755429) = 40,014.000.\n- Since 40,014 exceeds 40,000, the answer is yes.\n\nANSWER: yes | 40014"
+    },
+    {
+      "parsed": [
+        "yes",
+        40013.0
+      ],
+      "text": "Facts:\n- Millbrook’s 2020 population was 34,590 residents. [NR-11]\n- Millbrook’s 2025 population was 37,203 residents. [NR-11]\n\nCalculations:\n- Population increase from 2020 to 2025: 37,203 − 34,590 = 2,613.\n- Percentage growth: 2,613 ÷ 34,590 = 0.075542...\n- Applying the same growth to 2025–2030: 37,203 × (1 + 0.075542...) = 40,013.353...\n- Projected 2030 population: 40,013.353..., rounded to 40,013.\n- Since 40,013 exceeds 40,000, the answer is yes.\n\nANSWER: yes | 40013"
+    },
+    {
+      "parsed": [
+        "yes",
+        40013.129
+      ],
+      "text": "Facts used:\n- Millbrook’s 2020 population was 34,590 residents. [NR-11]\n- Millbrook’s 2025 population was 37,203 residents. [NR-11]\n- The projected growth rate from 2020 to 2025 is applied again from 2025 to 2030. [Question]\n\nCalculations:\n- Population increase from 2020 to 2025: 37,203 − 34,590 = 2,613\n- Growth rate: 2,613 ÷ 34,590 = 0.0755429\n- Projected 2030 population: 37,203 × (1 + 0.0755429) = 40,013.129\n- Since 40,013.129 exceeds 40,000, the population will exceed 40,000 residents.\n\nANSWER: yes | 40013.129"
+    },
+    {
+      "parsed": [
+        "yes",
+        40012.0
+      ],
+      "text": "Facts:\n- Millbrook’s population was 34,590 in 2020. [NR-11]\n- Millbrook’s population was 37,203 in 2025. [NR-11]\n- The question assumes the same percentage growth from 2025 to 2030 as from 2020 to 2025.\n\nCalculations:\n- Growth factor from 2020 to 2025 = 37,203 ÷ 34,590 = 1.0755420659.\n- Projected 2030 population = 37,203 × 1.0755420659 = 40,012.1758.\n- Rounded projected population = 40,012.\n- Since 40,012 is greater than 40,000, the population will exceed 40,000.\n\nANSWER: yes | 40012"
+    },
+    {
+      "parsed": [
+        "yes",
+        40013.0
+      ],
+      "text": "Facts used:\n- Millbrook’s 2020 population was 34,590 residents. [NR-11]\n- Millbrook’s 2025 population was 37,203 residents. [NR-11]\n- The question asks whether the same percentage growth from 2025 to 2030 would exceed 40,000 residents.\n\nCalculations:\n1. Population growth from 2020 to 2025:  \n   37,203 − 34,590 = 2,613\n2. Growth percentage:  \n   2,613 ÷ 34,590 = 0.0755429315\n3. Projected 2030 population:  \n   37,203 × (1 + 0.0755429315) = 40,013\n4. Since 40,013 is greater than 40,000, the population would exceed 40,000.\n\nANSWER: yes | 40013"
+    }
+  ],
+  "id": "Q-18",
+  "strategy": "S2",
+  "seconds": 14.407,
+  "correct": true,
+  "expected": [
+    "yes",
+    40013
+  ],
+  "vague": false
+}

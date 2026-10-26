@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Lindenmoor | 0.000",
+  "parsed": [
+    "Lindenmoor",
+    0.0
+  ],
+  "unanswered": false,
+  "in_tokens": 2214,
+  "out_tokens": 12,
+  "model_calls": 1,
+  "id": "Q-03",
+  "strategy": "S1",
+  "seconds": 2.019,
+  "correct": false,
+  "expected": [
+    "Lindenmoor",
+    5.3
+  ],
+  "vague": false
+}

@@ -1,0 +1,64 @@
+{
+  "final_text": "Facts:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater population density = 44,675 ÷ 921.4 = 48.479 residents per square kilometre.\n- Millbrook population density = 37,203 ÷ 758.6 = 49.038 residents per square kilometre.\n- Difference = 49.038 − 48.479 = 0.559 residents per square kilometre.\n\nANSWER: Millbrook | 0.559",
+  "parsed": [
+    "Millbrook",
+    0.571
+  ],
+  "unanswered": false,
+  "in_tokens": 11125,
+  "out_tokens": 829,
+  "model_calls": 5,
+  "votes": {
+    "millbrook|0.571": 1,
+    "millbrook|0.572": 1,
+    "millbrook|0.574": 1,
+    "millbrook|0.575": 1,
+    "millbrook|0.559": 1
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Millbrook",
+        0.571
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.481 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.052 residents per square kilometre.\n- Difference = 49.052 − 48.481 = 0.571 residents per square kilometre.\n\nANSWER: Millbrook | 0.571"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.572
+      ],
+      "text": "Facts used:\n- Brightwater’s 2025 population was 44,675, from NR-05.\n- Brightwater’s corrected area is 921.4 square kilometres, from NR-16.\n- Millbrook’s 2025 population was 37,203, from NR-11.\n- Millbrook’s area is 758.6 square kilometres, from NR-11.\n\nCalculations:\n- Brightwater population density = 44,675 ÷ 921.4 = 48.482 residents per square kilometre.\n- Millbrook population density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.482 = 0.572 residents per square kilometre.\n\nANSWER: Millbrook | 0.572"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.574
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.480 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.480 = 0.574 residents per square kilometre.\n\nANSWER: Millbrook | 0.574"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.575
+      ],
+      "text": "Facts used:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater density = 44,675 ÷ 921.4 = 48.479 residents per square kilometre.\n- Millbrook density = 37,203 ÷ 758.6 = 49.054 residents per square kilometre.\n- Difference = 49.054 − 48.479 = 0.575 residents per square kilometre.\n\nANSWER: Millbrook | 0.575"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        0.559
+      ],
+      "text": "Facts:\n- Brightwater’s 2025 population was 44,675 residents (NR-05).\n- Brightwater’s corrected area is 921.4 square kilometres (NR-16).\n- Millbrook’s 2025 population was 37,203 residents (NR-11).\n- Millbrook’s area is 758.6 square kilometres (NR-11).\n\nCalculations:\n- Brightwater population density = 44,675 ÷ 921.4 = 48.479 residents per square kilometre.\n- Millbrook population density = 37,203 ÷ 758.6 = 49.038 residents per square kilometre.\n- Difference = 49.038 − 48.479 = 0.559 residents per square kilometre.\n\nANSWER: Millbrook | 0.559"
+    }
+  ],
+  "id": "Q-09",
+  "strategy": "S2",
+  "seconds": 14.384,
+  "correct": true,
+  "expected": [
+    "Millbrook",
+    0.6
+  ],
+  "vague": false
+}

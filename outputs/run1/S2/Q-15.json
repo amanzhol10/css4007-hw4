@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Kelmarsh had 3,268 pupils and 11 schools in 2025/26. [NR-04]\n- Redfen had 3,147 pupils and 10 schools in 2025/26. [NR-09]\n\nCalculations:\n- Kelmarsh pupils per school = 3,268 ÷ 11 = 297.090909...\n- Redfen pupils per school = 3,147 ÷ 10 = 314.7\n- Difference = 314.7 − 297.090909... = 17.609090... pupils per school\n- Redfen has more pupils per school.\n\nANSWER: Redfen | 17.609",
+  "parsed": [
+    "Redfen",
+    17.609
+  ],
+  "unanswered": false,
+  "in_tokens": 11130,
+  "out_tokens": 737,
+  "model_calls": 5,
+  "votes": {
+    "redfen|17.6": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Redfen",
+        17.609
+      ],
+      "text": "Facts:\n- Kelmarsh had 11 schools and 3,268 pupils in 2025/26. [NR-04]\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n\nCalculations:\n- Kelmarsh pupils per school = 3268 ÷ 11 = 297.090909...\n- Redfen pupils per school = 3147 ÷ 10 = 314.7\n- Difference = 314.7 − 297.090909... = 17.609090...\n- Rounded to three decimal places: 17.609\n\nANSWER: Redfen | 17.609"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        17.609
+      ],
+      "text": "Facts:\n- Kelmarsh had 3,268 pupils and 11 schools in 2025/26. [NR-04]\n- Redfen had 3,147 pupils and 10 schools in 2025/26. [NR-09]\n\nCalculations:\n- Kelmarsh pupils per school = 3,268 ÷ 11 = 297.090909...\n- Redfen pupils per school = 3,147 ÷ 10 = 314.7\n- Difference = 314.7 − 297.090909... = 17.609090... pupils per school\n- Redfen has more pupils per school.\n\nANSWER: Redfen | 17.609"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        17.609
+      ],
+      "text": "Facts used:\n- Kelmarsh had 11 schools and 3,268 pupils in 2025/26. [NR-04]\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n\nCalculations:\n- Kelmarsh pupils per school = 3,268 ÷ 11 = 297.090909...\n- Redfen pupils per school = 3,147 ÷ 10 = 314.7\n- Difference = 314.7 − 297.090909... = 17.609090... pupils per school\n- Rounded final difference = 17.609 pupils per school\n\nANSWER: Redfen | 17.609"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        17.609
+      ],
+      "text": "Facts used:\n- Kelmarsh had 11 schools and 3,268 pupils in 2025/26. [NR-04]\n- Redfen had 10 schools and 3,147 pupils in 2025/26. [NR-09]\n\nCalculations:\n- Kelmarsh pupils per school = 3,268 ÷ 11 = 297.090909...\n- Redfen pupils per school = 3,147 ÷ 10 = 314.7\n- Difference = 314.7 − 297.090909... = 17.609090... pupils per school\n- Rounded final difference = 17.609 pupils per school\n\nANSWER: Redfen | 17.609"
+    },
+    {
+      "parsed": [
+        "Redfen",
+        17.609
+      ],
+      "text": "Facts:\n- Kelmarsh had 3,268 pupils and 11 schools in 2025/26. [NR-04]\n- Redfen had 3,147 pupils and 10 schools in 2025/26. [NR-09]\n\nCalculations:\n- Kelmarsh pupils per school = 3,268 ÷ 11 = 297.090909...\n- Redfen pupils per school = 3,147 ÷ 10 = 314.7\n- Difference = 314.7 − 297.090909... = 17.609090... pupils per school\n- Redfen has more pupils per school.\n\nANSWER: Redfen | 17.609"
+    }
+  ],
+  "id": "Q-15",
+  "strategy": "S2",
+  "seconds": 13.715,
+  "correct": true,
+  "expected": [
+    "Redfen",
+    17.61
+  ],
+  "vague": false
+}

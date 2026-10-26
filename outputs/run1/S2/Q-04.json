@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts used:\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Ashgrove pupils per school = 8,837 ÷ 24 = 368.208333...\n- Millbrook pupils per school = 5,562 ÷ 15 = 370.8\n- Difference = 370.8 − 368.208333... = 2.591666..., rounded to 2.592 pupils per school.\n- Millbrook has more pupils per school.\n\nANSWER: Millbrook | 2.592",
+  "parsed": [
+    "Millbrook",
+    2.592
+  ],
+  "unanswered": false,
+  "in_tokens": 11130,
+  "out_tokens": 738,
+  "model_calls": 5,
+  "votes": {
+    "millbrook|2.59": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Millbrook",
+        2.592
+      ],
+      "text": "Facts:\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Ashgrove pupils per school = 8,837 ÷ 24 = 368.208333...\n- Millbrook pupils per school = 5,562 ÷ 15 = 370.8\n- Difference = 370.8 − 368.208333... = 2.591666..., which rounds to 2.592 pupils per school.\n\nANSWER: Millbrook | 2.592"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        2.592
+      ],
+      "text": "Facts used:\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Ashgrove pupils per school = 8,837 ÷ 24 = 368.208333...\n- Millbrook pupils per school = 5,562 ÷ 15 = 370.8\n- Difference = 370.8 − 368.208333... = 2.591666..., which rounds to 2.592 pupils per school.\n\nANSWER: Millbrook | 2.592"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        2.592
+      ],
+      "text": "Facts:\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Ashgrove pupils per school = 8,837 ÷ 24 = 368.208333…\n- Millbrook pupils per school = 5,562 ÷ 15 = 370.8\n- Difference = 370.8 − 368.208333… = 2.591666… pupils per school\n- Rounded to three decimal places: 2.592 pupils per school\n\nANSWER: Millbrook | 2.592"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        2.592
+      ],
+      "text": "Facts:\n- Ashgrove had 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook had 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Ashgrove pupils per school = 8,837 ÷ 24 = 368.208333...\n- Millbrook pupils per school = 5,562 ÷ 15 = 370.8\n- Difference = 370.8 − 368.208333... = 2.591666..., which rounds to 2.592 pupils per school.\n\nANSWER: Millbrook | 2.592"
+    },
+    {
+      "parsed": [
+        "Millbrook",
+        2.592
+      ],
+      "text": "Facts used:\n- Ashgrove has 24 schools and 8,837 pupils in 2025/26. [NR-10]\n- Millbrook has 15 schools and 5,562 pupils in 2025/26. [NR-11]\n\nCalculations:\n- Ashgrove pupils per school = 8,837 ÷ 24 = 368.208333...\n- Millbrook pupils per school = 5,562 ÷ 15 = 370.8\n- Difference = 370.8 − 368.208333... = 2.591666..., rounded to 2.592 pupils per school.\n- Millbrook has more pupils per school.\n\nANSWER: Millbrook | 2.592"
+    }
+  ],
+  "id": "Q-04",
+  "strategy": "S2",
+  "seconds": 12.139,
+  "correct": true,
+  "expected": [
+    "Millbrook",
+    2.59
+  ],
+  "vague": false
+}

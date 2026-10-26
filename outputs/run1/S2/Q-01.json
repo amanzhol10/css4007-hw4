@@ -1,0 +1,60 @@
+{
+  "final_text": "Facts:\n- Ossbridge’s 2025 population was 52,904 and its area was 1,284.6 km². [NR-01]\n- Ossford’s 2025 population was 30,982 and its area was 846.2 km². [NR-02]\n\nCalculations:\n- Ossbridge density = 52,904 ÷ 1,284.6 = 41.183 residents/km².\n- Ossford density = 30,982 ÷ 846.2 = 36.613 residents/km².\n- Difference = 41.183 − 36.613 = 4.570 residents/km².\n\nANSWER: Ossbridge | 4.570",
+  "parsed": [
+    "Ossbridge",
+    4.567
+  ],
+  "unanswered": false,
+  "in_tokens": 11125,
+  "out_tokens": 807,
+  "model_calls": 5,
+  "votes": {
+    "ossbridge|4.57": 5
+  },
+  "samples": [
+    {
+      "parsed": [
+        "Ossbridge",
+        4.567
+      ],
+      "text": "Facts used:\n- Ossbridge’s 2025 population was 52,904 residents, and its area was 1,284.6 km². [NR-01]\n- Ossford’s 2025 population was 30,982 residents, and its area was 846.2 km². [NR-02]\n\nCalculations:\n- Ossbridge density = 52,904 ÷ 1,284.6 = 41.182 residents/km².\n- Ossford density = 30,982 ÷ 846.2 = 36.615 residents/km².\n- Difference = 41.182 − 36.615 = 4.567 residents/km².\n\nANSWER: Ossbridge | 4.567"
+    },
+    {
+      "parsed": [
+        "Ossbridge",
+        4.568
+      ],
+      "text": "Facts:\n- Ossbridge’s 2025 population is 52,904 residents and its area is 1,284.6 square kilometres. [NR-01]\n- Ossford’s 2025 population is 30,982 residents and its area is 846.2 square kilometres. [NR-02]\n\nCalculations:\n- Ossbridge population density = 52,904 ÷ 1,284.6 = 41.185... residents per square kilometre.\n- Ossford population density = 30,982 ÷ 846.2 = 36.617... residents per square kilometre.\n- Difference = 41.185... − 36.617... = 4.568... residents per square kilometre.\n\nOssbridge has the higher population density by 4.568 residents per square kilometre.\n\nANSWER: Ossbridge | 4.568"
+    },
+    {
+      "parsed": [
+        "Ossbridge",
+        4.569
+      ],
+      "text": "Facts used:\n- Ossbridge’s 2025 population was 52,904 residents, and its area was 1,284.6 square kilometres. [NR-01]\n- Ossford’s 2025 population was 30,982 residents, and its area was 846.2 square kilometres. [NR-02]\n\nCalculations:\n- Ossbridge population density = 52,904 ÷ 1,284.6 = 41.182 residents per square kilometre.\n- Ossford population density = 30,982 ÷ 846.2 = 36.614 residents per square kilometre.\n- Difference = 41.182... − 36.613... = 4.569 residents per square kilometre.\n\nANSWER: Ossbridge | 4.569"
+    },
+    {
+      "parsed": [
+        "Ossbridge",
+        4.568
+      ],
+      "text": "Facts used:\n- Ossbridge’s 2025 population is 52,904 residents, and its area is 1,284.6 square kilometres. [NR-01]\n- Ossford’s 2025 population is 30,982 residents, and its area is 846.2 square kilometres. [NR-02]\n\nCalculations:\n- Ossbridge density = 52,904 ÷ 1,284.6 = 41.183 residents per square kilometre.\n- Ossford density = 30,982 ÷ 846.2 = 36.615 residents per square kilometre.\n- Difference = 41.183... − 36.615... = 4.568 residents per square kilometre.\n\nANSWER: Ossbridge | 4.568"
+    },
+    {
+      "parsed": [
+        "Ossbridge",
+        4.57
+      ],
+      "text": "Facts:\n- Ossbridge’s 2025 population was 52,904 and its area was 1,284.6 km². [NR-01]\n- Ossford’s 2025 population was 30,982 and its area was 846.2 km². [NR-02]\n\nCalculations:\n- Ossbridge density = 52,904 ÷ 1,284.6 = 41.183 residents/km².\n- Ossford density = 30,982 ÷ 846.2 = 36.613 residents/km².\n- Difference = 41.183 − 36.613 = 4.570 residents/km².\n\nANSWER: Ossbridge | 4.570"
+    }
+  ],
+  "id": "Q-01",
+  "strategy": "S2",
+  "seconds": 14.452,
+  "correct": true,
+  "expected": [
+    "Ossbridge",
+    4.6
+  ],
+  "vague": false
+}

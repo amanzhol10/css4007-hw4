@@ -1,0 +1,20 @@
+{
+  "final_text": "ANSWER: Kelmarsh | 16.091",
+  "parsed": [
+    "Kelmarsh",
+    16.091
+  ],
+  "unanswered": false,
+  "in_tokens": 2209,
+  "out_tokens": 13,
+  "model_calls": 1,
+  "id": "Q-15",
+  "strategy": "S1",
+  "seconds": 1.33,
+  "correct": false,
+  "expected": [
+    "Redfen",
+    17.61
+  ],
+  "vague": false
+}
